@@ -1,0 +1,25 @@
+body { background-image: url("back.jpg"); }
+a:link {
+color: crimson; 
+background-color: transparent; 
+text-decoration: none;
+}
+a:hover {
+color: crimson;
+background-color: transparent;
+}
+a:visited {
+    color: crimson; 
+    background-color: transparent; 
+    text-decoration: none;
+    }
+table td {  text-align: top; }
+table { margin: auto}
+
+#id{ text-align: bottom}
+.image { width: 350px ; height: 350px}
+.antraste { font-family: italic; font-size: 50pt; color: crimson ; text-align: center }
+#id{ text-align: bottom ; color: crimson}
+.dalykas { font-family: italic; font-size: 15pt; color: crimson }
+.image2 { text-align: right; width: 400px ; height: 400px}
+.n { width: 100% }
