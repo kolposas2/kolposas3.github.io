@@ -1,0 +1,145 @@
+body {
+    width: 1920px;
+    height: 1320px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header {
+ position: fixed;
+ width: 100%;
+ height: 80px;
+ background: #333;
+ z-index: 99;
+
+}
+.logov {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 10px;
+}
+
+.logo{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.card {
+    margin: 0px;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+}
+.card img {
+    width: 250px;
+    height: 250px;
+}
+.aplink {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+.borderis {
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 25px solid rgba(1, 1, 1, 0.00001) ; 
+    top: 50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+}
+ .tekstas {
+    position: absolute;
+    background: rgba(40, 40, 40, 0.8);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0px 0px -100px;
+    text-align: center;
+    visibility: hidden;
+    color: white;
+ }
+ .imge {
+    float: right;
+    height: 100%;
+    width: 80px;
+    vertical-align: middle;
+    display: table-cell;
+}
+.viskas {
+ background-image: url("back2.jpg");
+ width: 100%;
+ height: 100%;
+ 
+}
+.aplink:hover .tekstas {
+    visibility: visible;
+}
+.antraste {
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+.vieta {
+    height: 1240px;
+    width: 660px;
+margin: 0 auto;
+
+
+}
+.fonas {
+    height: 1320px;
+    width: 1920px;
+    position: absolute;
+    background-image: url("back2.jpg");
+    margin: 0 auto;
+}
+.antraste2 {
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 40px;
+    
+}
+.tekstas1 {
+    float: left;
+    width: 340px;
+    height: 280px;
+    background: rgba(40, 40, 40, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.imagg {
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+.tekstas2{
+    float: right;
+    width: 340px;
+    height: 280px;
+    background: rgba(40, 40, 40, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.imaggg{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
